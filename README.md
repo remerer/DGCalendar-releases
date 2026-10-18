@@ -8,8 +8,8 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 | 빌드 | 다운로드 | 런타임 |
 |---|---|---|
-| **권장 · 동적 CRT** | [DGCalendar 0.1.0 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.0/DGCalendar-0.1.0-win-x64.zip) | Microsoft Visual C++ v14 x64 필요 |
-| 대체 · 정적 CRT | [DGCalendar 0.1.0 · 정적 CRT](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.0/DGCalendar-0.1.0-win-x64-static-crt.zip) | Rust 코어의 CRT를 빌드에 포함 |
+| **권장 · 동적 CRT** | [DGCalendar 0.1.1 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.1/DGCalendar-0.1.1-win-x64.zip) | Microsoft Visual C++ v14 x64 필요 |
+| 대체 · 정적 CRT | [DGCalendar 0.1.1 · 정적 CRT](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.1/DGCalendar-0.1.1-win-x64-static-crt.zip) | Rust 코어의 CRT를 빌드에 포함 |
 
 두 버전의 파일을 섞지 말고 각각 ZIP 전체를 압축 해제해 사용하세요.
 
@@ -43,7 +43,7 @@ Google 로그인 제공 범위는 릴리스 안내를 확인해 주세요. 배�
 
 ## 업데이트
 
-앱 옵션의 GitHub 링크에서 릴리스와 변경 내용을 확인할 수 있습니다. 앱은 새 정식 릴리스를 확인해 알리며 자동 설치하지 않습니다. 직접 업데이트하려면 앱을 트레이 메뉴에서 종료하고 새 ZIP을 **새 폴더**에 압축 해제한 뒤 실행합니다. 시작 프로그램을 사용 중이라면 새 폴더에서 해당 옵션을 다시 켜 경로를 갱신합니다.
+설정의 **앱 정보**에서 현재 버전, 업데이트 확인, GitHub 배포 페이지와 새 버전 알림 설정을 확인할 수 있습니다. 개발 후원은 배포 페이지 링크 옆의 커피 아이콘으로 제공합니다. 앱은 새 정식 릴리스를 확인해 알리며 자동 설치하지 않습니다. 직접 업데이트하려면 앱을 트레이 메뉴에서 종료하고 새 ZIP을 **새 폴더**에 압축 해제한 뒤 실행합니다. 시작 프로그램을 사용 중이라면 새 폴더에서 해당 옵션을 다시 켜 경로를 갱신합니다.
 
 일정·할 일·설정은 앱 폴더와 별도로 현재 사용자의 `%LOCALAPPDATA%\CalendarDesktop`에 보관합니다. Google 토큰과 일정 데이터는 Windows 사용자에 묶여 암호화되므로 다른 PC나 Windows 계정으로 파일을 복사하는 방식의 이전은 지원하지 않습니다.
 
