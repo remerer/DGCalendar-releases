@@ -4,7 +4,14 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 이 저장소는 **Windows 배포 파일과 릴리스 안내**를 제공합니다. 소스 코드는 포함하지 않습니다.
 
-첫 배포본을 준비 중입니다. 정식 릴리스가 공개되면 아래 다운로드 링크에서 받을 수 있습니다.
+같은 기능의 두 가지 빌드를 제공합니다. **일반적으로 권장 버전인 동적 CRT 빌드를 먼저 사용하세요.**
+
+| 빌드 | 다운로드 | 런타임 |
+|---|---|---|
+| **권장 · 동적 CRT** | [DGCalendar 0.1.0 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.0/DGCalendar-0.1.0-win-x64.zip) | Microsoft Visual C++ v14 x64 필요 |
+| 대체 · 정적 CRT | [DGCalendar 0.1.0 · 정적 CRT](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.0/DGCalendar-0.1.0-win-x64-static-crt.zip) | Rust 코어의 CRT를 빌드에 포함 |
+
+두 버전의 파일을 섞지 말고 각각 ZIP 전체를 압축 해제해 사용하세요.
 
 ## 다운로드와 실행
 
@@ -14,7 +21,7 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 지원 대상은 **Windows 10 1809 이상 / Windows 11, x64**입니다. .NET과 Windows App SDK 런타임을 포함하는 배포입니다. 이전 Windows 버전과 ARM64 기본 실행은 지원하지 않습니다. Windows 최소 버전은 빌드 설정의 하한이며 모든 Windows 빌드에서의 실기 검증을 뜻하지 않습니다.
 
-**Microsoft Visual C++ v14 재배포 가능 패키지(x64)**가 필요합니다. PC에 설치되어 있지 않거나 `VCRUNTIME140.dll` 누락 안내가 나오면 [Microsoft 공식 다운로드 안내](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)를 통해 x64 패키지를 설치해 주세요.
+**권장 동적 CRT 버전에는 Microsoft Visual C++ v14 재배포 가능 패키지(x64)**가 필요합니다. PC에 설치되어 있지 않거나 `VCRUNTIME140.dll` 누락 안내가 나오면 [Microsoft 공식 다운로드 안내](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)를 통해 x64 패키지를 설치해 주세요. 별도 런타임 설치를 줄이려면 대체 정적 CRT 버전을 선택할 수 있습니다.
 
 초기 시험 배포에는 코드 서명이 없습니다. Windows가 게시자를 확인하지 못하거나 SmartScreen 안내를 표시할 수 있습니다. 다운로드한 ZIP은 같은 릴리스의 `SHA256SUMS.txt`로 무결성을 확인할 수 있습니다.
 
