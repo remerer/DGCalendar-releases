@@ -12,8 +12,8 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 | 선택 | 다운로드 | 실행 안내 |
 |---|---|---|
-| **권장 · 기본 버전** | [DGCalendar 0.1.2 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.2/DGCalendar-0.1.2-win-x64.zip) | 안정적인 실행에 필요한 Microsoft 공용 구성요소를 사용합니다. PC에 따라 추가 설치가 필요할 수 있습니다. |
-| 추가 설치를 줄인 버전 | [DGCalendar 0.1.2 · 추가 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.2/DGCalendar-0.1.2-win-x64-static-crt.zip) | 필요한 구성요소를 더 포함했습니다. 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
+| **권장 · 기본 버전** | [DGCalendar 0.1.3 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.3/DGCalendar-0.1.3-win-x64.zip) | 안정적인 실행에 필요한 Microsoft 공용 구성요소를 사용합니다. PC에 따라 추가 설치가 필요할 수 있습니다. |
+| 추가 설치를 줄인 버전 | [DGCalendar 0.1.3 · 추가 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.3/DGCalendar-0.1.3-win-x64-static-crt.zip) | 필요한 구성요소를 더 포함했습니다. 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
 
 **Windows 10 1809 이상 또는 Windows 11의 x64 PC**에서 사용할 수 있습니다.
 
@@ -32,10 +32,13 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 - 투명도·배경 밝기·요일 색·글자 크기와 굵기 조절
 - 위치·크기 잠금, 여러 모니터 지원, Windows 시작 시 실행
 - 선택한 캘린더의 기념일 이름과 공휴일 강조 표시
+- Windows 표시 언어에 따른 한국어·영어 자동 적용
+
+앱을 시작할 때 Windows 표시 언어가 한국어이면 한국어로, 그 외 언어이면 영어로 표시합니다. Google 연결 후 브라우저에 나타나는 앱의 안내 페이지도 한국어와 영어를 지원합니다.
 
 ## Google 계정 연결
 
-Google 연동은 공개 모드로 전환했으며, Google의 앱 검증은 아직 완료되지 않았습니다. 로그인 시 미검증 앱 안내와 사용자 수 제한이 적용될 수 있습니다. 로컬 기능은 계정 연결 없이 사용할 수 있습니다.
+Google Calendar·Tasks 접근 권한 검증을 신청했으며, 현재 Google 심사 중입니다. 아직 검증이 승인된 상태는 아니므로 로그인 시 미검증 앱 안내와 사용자 수 제한이 적용될 수 있습니다. 로컬 일정과 할 일은 인터넷이나 Google 계정 연결 없이 사용할 수 있습니다.
 
 앱의 설정에서 **Google 연결**을 누르고, 열리는 브라우저에서 로그인한 뒤 Calendar·Tasks 접근 권한을 허용하세요. 사용자가 별도로 Google API나 로그인용 앱 설정을 만들 필요는 없습니다. 이미 연결해 사용 중인 PC의 연결 정보는 업데이트 후에도 유지됩니다.
 
