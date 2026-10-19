@@ -1,5 +1,5 @@
-name: 문제 신고
-description: 앱을 사용하면서 발생한 문제를 알려 주세요.
+name: 문제 신고 (한국어)
+description: 앱을 사용하면서 발생한 문제를 한국어로 알려 주세요.
 title: "[문제] "
 labels: [bug]
 body:
@@ -29,7 +29,7 @@ body:
     attributes:
       label: 앱 버전
       description: 설정 → 앱 정보에서 확인할 수 있습니다.
-      placeholder: "예: 0.1.1"
+      placeholder: "예: 0.1.3"
   - type: dropdown
     id: windows-version
     attributes:

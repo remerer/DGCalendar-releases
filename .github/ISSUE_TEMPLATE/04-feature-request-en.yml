@@ -1,0 +1,24 @@
+name: Feature request (English)
+description: Suggest an idea to make the app easier to use.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you find inconvenient or what feature you would like to see.
+        This request will be public. Hide personal information, such as account details or actual calendar entries, in your text and images.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: What would you like to improve, and how?
+      description: It helps to describe how you use the app and what you would like to change.
+      placeholder: "Example: It is hard to find an event on a busy day. I would like to search event titles within that date."
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: Usage examples or references
+      description: Optional. You can drag images or files into this field to attach them.
+      placeholder: "Share any helpful examples, reference images, or links."

@@ -1,0 +1,46 @@
+name: Bug report (English)
+description: Tell us about a problem you encountered while using the app.
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe what happened in your own words. You can leave optional fields blank if you are unsure.
+        This report will be public. Hide personal information, such as account details or actual calendar entries, in your text and images.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What went wrong?
+      description: Tell us what you were doing and what you saw on screen.
+      placeholder: "Example: I clicked the next month button, but the dates did not change."
+    validations:
+      required: true
+  - type: textarea
+    id: steps-and-expected
+    attributes:
+      label: Steps to reproduce and expected behavior
+      description: If possible, tell us what you did just before the problem occurred and what you expected to happen.
+      placeholder: |
+        Example: I closed Settings, then clicked the next month button twice.
+        I expected to see the dates and events for the next month.
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: You can find this in Settings → About.
+      placeholder: "Example: 0.1.3"
+  - type: dropdown
+    id: windows-version
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Not sure
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Screenshots or additional details
+      description: You can drag images or files into this field to attach them. Hide any personal information.
+      placeholder: "Include any error messages you saw or anything else you would like us to know."

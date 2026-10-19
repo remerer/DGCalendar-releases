@@ -59,7 +59,7 @@ Google Calendar·Tasks 접근 권한 검증은 **신청 후 심사 중**입니�
 
 ## 문의와 후원
 
-- [문제 신고·개선 요청](https://github.com/remerer/DGCalendar-releases/issues/new/choose): 양식을 선택하면 입력 안내를 볼 수 있습니다.
+- [문제 신고·개선 요청 / Feedback](https://github.com/remerer/DGCalendar-releases/issues/new/choose): 한국어·영어 양식을 제공합니다. Choose a Korean or English form to report a bug or suggest an improvement.
 - [Buy Me a Coffee](https://buymeacoffee.com/remerer): 앱의 **설정 → 앱 정보**에서도 커피 아이콘으로 열 수 있습니다.
 - [개인정보처리방침](https://dgcalendar.remerer.chatgpt.site/privacy.html)
 
