@@ -1,0 +1,24 @@
+name: 개선 요청
+description: 더 편하게 사용하기 위한 아이디어를 제안해 주세요.
+title: "[개선] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        사용하면서 불편했던 점이나 원하는 기능을 편하게 알려 주세요.
+        이 내용은 공개됩니다. 계정 정보나 실제 일정 등 개인정보는 글과 이미지에서 가려 주세요.
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 어떤 점이 불편하고, 어떻게 바뀌면 좋을까요?
+      description: 사용하던 상황과 원하는 개선을 함께 적어 주시면 도움이 됩니다.
+      placeholder: "예: 일정이 많은 날짜에서 내용을 찾기 어려워요. 날짜 안에서 일정 제목을 검색할 수 있으면 좋겠어요."
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: 사용 예시 또는 참고 자료
+      description: 선택 사항입니다. 이미지나 파일은 이 칸에 끌어 놓아 첨부할 수 있습니다.
+      placeholder: "도움이 될 만한 사용 예시, 참고 이미지나 링크가 있다면 알려 주세요."

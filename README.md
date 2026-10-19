@@ -47,7 +47,9 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 ## 피드백과 후원
 
-문제 제보: [Issues](https://github.com/remerer/DGCalendar-releases/issues)
+문제 신고·개선 요청: [작성하기](https://github.com/remerer/DGCalendar-releases/issues/new/choose)
+
+양식을 선택하면 입력칸마다 작성 예시를 볼 수 있습니다. [기존 제보](https://github.com/remerer/DGCalendar-releases/issues)도 확인할 수 있습니다.
 
 개발 후원: [Buy Me a Coffee](https://buymeacoffee.com/remerer)
 
