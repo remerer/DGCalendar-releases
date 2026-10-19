@@ -12,8 +12,8 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 | 선택 | 다운로드 | 실행 안내 |
 |---|---|---|
-| **권장 · 기본 버전** | [DGCalendar 0.1.1 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.1/DGCalendar-0.1.1-win-x64.zip) | 안정적인 실행에 필요한 Microsoft 공용 구성요소를 사용합니다. PC에 따라 추가 설치가 필요할 수 있습니다. |
-| 추가 설치를 줄인 버전 | [DGCalendar 0.1.1 · 추가 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.1/DGCalendar-0.1.1-win-x64-static-crt.zip) | 필요한 구성요소를 더 포함했습니다. 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
+| **권장 · 기본 버전** | [DGCalendar 0.1.2 · Windows x64](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.2/DGCalendar-0.1.2-win-x64.zip) | 안정적인 실행에 필요한 Microsoft 공용 구성요소를 사용합니다. PC에 따라 추가 설치가 필요할 수 있습니다. |
+| 추가 설치를 줄인 버전 | [DGCalendar 0.1.2 · 추가 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.2/DGCalendar-0.1.2-win-x64-static-crt.zip) | 필요한 구성요소를 더 포함했습니다. 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
 
 **Windows 10 1809 이상 또는 Windows 11의 x64 PC**에서 사용할 수 있습니다.
 
@@ -35,7 +35,9 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 
 ## Google 계정 연결
 
-**Google 연결 없이도 로컬 기능을 바로 사용할 수 있습니다.** 새 PC의 Google 로그인에는 별도의 Google 로그인용 앱 설정이 필요하며, 현재 공개 ZIP에는 포함되어 있지 않습니다. 이미 연결해 사용 중인 PC의 연결 정보는 업데이트 후에도 유지됩니다.
+Google 연동은 현재 등록된 테스트 계정에 한해 사용할 수 있습니다. 로컬 기능은 계정 연결 없이 사용할 수 있습니다.
+
+등록된 테스트 계정은 앱의 설정에서 **Google 연결**을 누르고, 열리는 브라우저에서 로그인한 뒤 Calendar·Tasks 접근 권한을 허용하세요. 사용자가 별도로 Google API나 로그인용 앱 설정을 만들 필요는 없습니다. 이미 연결해 사용 중인 PC의 연결 정보는 업데이트 후에도 유지됩니다.
 
 ## 업데이트
 
@@ -63,7 +65,7 @@ Desktop with Google Calendar. 일정과 할 일을 날짜별로 보여주는 Win
 - 추가 설치를 줄인 버전은 Rust 코어에 CRT를 정적으로 연결합니다. 모든 Windows 구성요소의 추가 설치가 불필요하다는 의미는 아닙니다.
 - 두 버전 모두 .NET과 Windows App SDK 런타임을 포함합니다. 함께 제공되는 DLL과 화면 리소스도 필요합니다.
 - 일정·할 일·설정은 `%LOCALAPPDATA%\CalendarDesktop`에 보관합니다. Google 토큰과 일정 데이터는 Windows 사용자에 묶여 암호화되므로 다른 PC나 Windows 계정으로 파일만 복사해 이전하는 방식은 지원하지 않습니다.
-- 공개 ZIP에는 Google Desktop OAuth 클라이언트 설정과 사용자 인증 정보를 포함하지 않습니다.
+- 공개 ZIP에는 공용 Google Desktop OAuth 클라이언트 설정을 포함합니다. 사용자별 로그인 토큰과 개인 일정 데이터는 포함하지 않으며, 로그인 후 해당 PC에 저장합니다.
 - 현재 배포에는 코드 서명이 없어 Windows에서 게시자를 확인하지 못할 수 있습니다.
 
 </details>
