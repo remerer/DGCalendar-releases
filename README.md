@@ -37,7 +37,7 @@ Windows 표시 언어가 한국어이면 한국어로, 그 외에는 영어로 �
 
 Google 연동에는 별도의 API 설정이 필요하지 않습니다.
 
-Google Calendar·Tasks 접근 권한 검증은 **신청 후 심사 중**입니다. 승인 전에는 Google 로그인 시 미검증 앱 안내와 사용자 수 제한이 적용될 수 있습니다.
+Google Calendar 일정·Google Tasks 관리 권한에 대한 OAuth 검증이 **2026년 10월 24일 승인되었습니다.** Google 연결 시 본인의 Google 계정으로 로그인하고 표시되는 권한 요청에 동의하면 됩니다.
 
 기본 버전에서 Microsoft 구성요소 설치를 요구하면 [Microsoft 공식 안내](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)의 **X64** 패키지를 설치해 주세요. 실행에 필요한 파일이 함께 있으므로 압축을 푼 폴더 전체를 유지해 주세요.
 
