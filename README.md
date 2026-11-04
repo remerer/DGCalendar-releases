@@ -28,8 +28,8 @@ Windows 표시 언어가 한국어이면 한국어로, 그 외에는 영어로 �
 
 | 버전 | 다운로드 | 선택 안내 |
 |---|---|---|
-| **권장 · 기본 버전** | [DGCalendar v0.1.3](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.3/DGCalendar-0.1.3-win-x64.zip) | PC에 따라 Microsoft 공용 구성요소의 추가 설치가 필요할 수 있습니다. |
-| 추가 설치를 줄인 버전 | [DGCalendar v0.1.3 · 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.3/DGCalendar-0.1.3-win-x64-static-crt.zip) | 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
+| **권장 · 기본 버전** | [DGCalendar v0.1.4.1](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.4.1/DGCalendar-0.1.4.1-win-x64.zip) | PC에 따라 Microsoft 공용 구성요소의 추가 설치가 필요할 수 있습니다. |
+| 추가 설치를 줄인 버전 | [DGCalendar v0.1.4.1 · 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.4.1/DGCalendar-0.1.4.1-win-x64-static-crt.zip) | 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
 
 1. ZIP을 다운로드해 **전체 압축 해제**합니다.
 2. `DGCalendar` 폴더 안의 `DGCalendar.exe`를 실행합니다. 별도의 앱 설치 과정은 없습니다.
