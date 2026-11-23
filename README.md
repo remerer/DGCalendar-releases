@@ -2,11 +2,19 @@
 
 Google Calendar와 Google Tasks를 바탕화면에서 확인하고 관리하는 Windows 달력입니다. Google 계정을 연결하거나, 로그인 없이 로컬 일정과 할 일을 사용할 수 있습니다.
 
-[홈페이지](https://dgcalendar.remerer.chatgpt.site/) · [최신 릴리스](https://github.com/remerer/DGCalendar-releases/releases/latest) · [문제 신고·개선 요청](https://github.com/remerer/DGCalendar-releases/issues/new/choose)
+[English](README.en.md) · [홈페이지](https://dgcalendar.remerer.chatgpt.site/) · [최신 릴리스](https://github.com/remerer/DGCalendar-releases/releases/latest) · [문제 신고·개선 요청](https://github.com/remerer/DGCalendar-releases/issues/new/choose)
 
 ![DGCalendar 월간 달력 예시](docs/images/calendar-example.png)
 
-예시 일정과 할 일을 넣은 실제 앱 화면입니다. 배경 밝기·투명도·요일 색·글자 크기를 조절할 수 있습니다.
+예시 일정과 할 일을 넣은 실제 앱 화면입니다. 테마, 배경 불투명도, 요일 색, 글자 크기를 조절할 수 있습니다.
+
+## v0.1.5 변경 사항
+
+- 여러 날 일정을 주별 막대로 표시합니다. 주를 넘는 일정은 토요일 끝에 `›`, 일요일 시작에 `‹`를 표시합니다.
+- 하루 일정과 여러 날 일정의 배경 불투명도를 맞췄습니다.
+- 달력의 일정·할 일 행과 빠른 입력 배치를 정리했습니다.
+- 빠른 제목 수정에서 제목을 비운 채 입력을 마치면 기존 제목을 그대로 둡니다.
+- 비어 있는 빠른 입력 때문에 앱 종료가 막히던 문제를 수정했습니다.
 
 ## 주요 기능
 
@@ -14,7 +22,7 @@ Google Calendar와 Google Tasks를 바탕화면에서 확인하고 관리하는 
 - Google Calendar·Tasks 연동과 표시할 캘린더 선택
 - 인터넷이나 Google 연결 없이 사용하는 로컬 일정·할 일
 - 날짜의 빈 공간을 더블클릭하는 빠른 입력
-- 투명도·배경 밝기·요일 색·글자 크기와 굵기 설정
+- 라이트·다크·시스템 테마와 배경 불투명도·요일 색·글자 크기 설정
 - 창 이동·크기 조절과 잠금, 여러 모니터 지원, Windows 시작 시 실행
 - 선택한 캘린더의 기념일 표기와 공휴일 강조
 
@@ -28,8 +36,8 @@ Windows 표시 언어가 한국어이면 한국어로, 그 외에는 영어로 �
 
 | 버전 | 다운로드 | 선택 안내 |
 |---|---|---|
-| **권장 · 기본 버전** | [DGCalendar v0.1.4.1](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.4.1/DGCalendar-0.1.4.1-win-x64.zip) | PC에 따라 Microsoft 공용 구성요소의 추가 설치가 필요할 수 있습니다. |
-| 추가 설치를 줄인 버전 | [DGCalendar v0.1.4.1 · 구성요소 포함](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.4.1/DGCalendar-0.1.4.1-win-x64-static-crt.zip) | 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
+| **권장 · 기본 버전** | [DGCalendar v0.1.5](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.5/DGCalendar-0.1.5-win-x64.zip) | PC에 따라 Microsoft 공용 구성요소의 추가 설치가 필요할 수 있습니다. |
+| 추가 설치를 줄인 버전 | [DGCalendar v0.1.5 · Static CRT](https://github.com/remerer/DGCalendar-releases/releases/download/v0.1.5/DGCalendar-0.1.5-win-x64-static-crt.zip) | 기본 버전의 구성요소를 설치하기 어려운 경우 선택하세요. |
 
 1. ZIP을 다운로드해 **전체 압축 해제**합니다.
 2. `DGCalendar` 폴더 안의 `DGCalendar.exe`를 실행합니다. 별도의 앱 설치 과정은 없습니다.
@@ -59,8 +67,8 @@ Google Calendar 일정·Google Tasks 관리 권한에 대한 OAuth 검증이 **2
 
 ## 문의와 후원
 
-- [문제 신고·개선 요청 / Feedback](https://github.com/remerer/DGCalendar-releases/issues/new/choose): 한국어·영어 양식을 제공합니다. Choose a Korean or English form to report a bug or suggest an improvement.
-- [Buy Me a Coffee](https://buymeacoffee.com/remerer): 앱의 **설정 → 앱 정보**에서도 커피 아이콘으로 열 수 있습니다.
+- 문제 신고와 개선 요청은 한국어·영어 양식을 사용할 수 있습니다. [문제 신고·개선 요청](https://github.com/remerer/DGCalendar-releases/issues/new/choose)
+- 앱의 **설정 → 앱 정보**에서 커피 아이콘으로 후원 페이지를 열 수 있습니다. [Buy Me a Coffee](https://buymeacoffee.com/remerer)
 - [개인정보처리방침](https://dgcalendar.remerer.chatgpt.site/privacy.html)
 
 <details>
